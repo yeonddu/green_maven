@@ -1,0 +1,31 @@
+package com.mycompany.newgyms.admin.qna.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.mycompany.newgyms.owner.qna.dao.OwnerQnaDAO;
+import com.mycompany.newgyms.qna.vo.QnaVO;
+
+@Service("adminQnaService")
+@Transactional(propagation=Propagation.REQUIRED)
+public class AdminQnaServiceImpl {
+	@Autowired
+	private AdminQnaDAO adminQnaDAO;
+
+	@Override
+	public List<QnaVO> adminQuestionList() throws Exception{
+		List questionList= ownerQnaDAO.selectAdminQuestionList();
+		return questionList;
+	}
+	
+	@Override
+	public List<QnaVO> adminAnswerList() throws Exception{
+		List answerList= ownerQnaDAO.selectAdminAnswerList();
+		return answerList;
+	}	
+
+}

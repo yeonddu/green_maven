@@ -1,0 +1,14 @@
+package com.mycompany.newgyms.owner.qna.dao;
+
+import org.apache.ibatis.session.SqlSession;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.mycompany.newgyms.owner.event.dao.OwnerEventDAO;
+
+@Repository("ownerQnaDAO")
+public class OwnerQnaDAOImpl implements OwnerQnaDAO  {
+	@Autowired
+	private SqlSession sqlSession;
+
+}

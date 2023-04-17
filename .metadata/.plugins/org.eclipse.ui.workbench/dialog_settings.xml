@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.wst.jsdt.ui.NewJSWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.wst.jsdt.ui.java"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_WIDTH" value="450"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_HEIGHT" value="506"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
+		<list key="orderedElements">
+			<item value="org.eclipse.wst.server.ui.preferencePage"/>
+		</list>
+		<list key="orderedProviders">
+			<item value="org.eclipse.ui.preferences"/>
+		</list>
+		<list key="textEntries">
+			<item value="1"/>
+		</list>
+		<list key="textArray">
+			<item value="server"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="E:\송연수\0프로젝트\newgyms_230413.zip"/>
+			<item value="E:\송연수\0프로젝트\newgyms_230412.zip"/>
+			<item value="E:\송연수\0프로젝트\newgyms_230411.zip"/>
+			<item value="E:\송연수\0프로젝트\newgyms_230410.zip"/>
+			<item value="E:\송연수\0프로젝트\newgyms_230405.zip"/>
+			<item value="E:\송연수\0프로젝트\newgyms_230404.zip"/>
+			<item value="E:\송연수\0프로젝트\newgyms_230331.zip"/>
+			<item value="E:\송연수\0프로젝트\newgyms_230329.zip"/>
+			<item value="E:\송연수\0프로젝트\newgyms_230328.zip"/>
+			<item value="E:\송연수\0프로젝트\newgyms_230327.zip"/>
+			<item value="E:\송연수\0프로젝트\newgyms_230324.zip"/>
+			<item value="E:\송연수\0프로젝트\newgyms_230317.zip"/>
+			<item value="E:\송연수\0프로젝트\bookshop.zip"/>
+			<item value="E:\송연수\0프로젝트\newgyms_230314.zip"/>
+			<item value="E:\송연수\0프로젝트\newgyms_230313.zip"/>
+			<item value="E:\송연수\newgyms.zip"/>
+			<item value="C:\Users\Administrator\Desktop\pro30.zip"/>
+			<item value="E:\송연수\songyeonsu1.zip"/>
+			<item value="C:\Users\Administrator\Desktop\songyeonsu1.zip"/>
+		</list>
+	</section>
+</section>

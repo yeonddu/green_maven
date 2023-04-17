@@ -1,0 +1,10 @@
+package com.mycompany.newgyms.admin.qna.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller("adminQnaController")
+@RequestMapping(value = "/admin/qna")
+public class AdminQnaControllerImpl {
+
+}

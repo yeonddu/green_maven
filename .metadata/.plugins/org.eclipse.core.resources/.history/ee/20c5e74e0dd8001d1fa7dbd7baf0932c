@@ -1,0 +1,11 @@
+package com.mycompany.newgyms.admin.qna.dao;
+
+import java.util.ArrayList;
+
+import org.springframework.dao.DataAccessException;
+
+public interface AdminQnaDAO {
+	public ArrayList selectAdminQuestionList() throws DataAccessException;
+	public ArrayList selectAdminAnswerList() throws DataAccessException;
+	
+}

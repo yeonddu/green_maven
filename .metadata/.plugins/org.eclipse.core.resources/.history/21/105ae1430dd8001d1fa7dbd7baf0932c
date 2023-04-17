@@ -1,0 +1,30 @@
+package com.mycompany.newgyms.admin.qna.dao;
+
+import java.util.ArrayList;
+
+import org.apache.ibatis.session.SqlSession;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataAccessException;
+import org.springframework.stereotype.Repository;
+
+import com.mycompany.newgyms.owner.qna.dao.OwnerQnaDAO;
+
+@Repository("adminQnaDAO")
+public class AdminQnaDAOImpl implements AdminQnaDAO  {
+	@Autowired
+	private SqlSession sqlSession;
+
+	@Override
+	public ArrayList selectAdminQuestionList() throws DataAccessException{
+		ArrayList questionList = new ArrayList();
+		questionList=(ArrayList)sqlSession.selectList("mapper.admin_qna.selectAdminQuestionList");
+		return questionList;
+	}
+	
+	@Override
+	public ArrayList selectAdminAnswerList() throws DataAccessException{
+		ArrayList answerList = new ArrayList();
+		answerList=(ArrayList)sqlSession.selectList("mapper.admin_qna.selectAdminAnswerList");
+		return answerList;
+	}
+}

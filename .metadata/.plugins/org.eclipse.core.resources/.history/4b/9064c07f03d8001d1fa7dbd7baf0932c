@@ -1,0 +1,11 @@
+package com.mycompany.newgyms.admin.qna.service;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
+
+@Service("adminQnaService")
+@Transactional(propagation=Propagation.REQUIRED)
+public class AdminQnaServiceImpl {
+
+}

@@ -1,0 +1,19 @@
+package com.mycompany.newgyms.admin.qna.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.mycompany.newgyms.admin.event.service.AdminEventService;
+import com.mycompany.newgyms.event.vo.EventVO;
+
+@Controller("adminQnaController")
+@RequestMapping(value = "/admin/qna")
+public class AdminQnaControllerImpl {
+	
+	@Autowired
+	private AdminQnaService adminQnaService;
+	@Autowired
+	private QnaVO qnaVO;
+
+}

@@ -1,0 +1,27 @@
+package com.mycompany.newgyms.owner.qna.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.mycompany.newgyms.qna.vo.QnaVO;
+
+@Service("ownerQnaService")
+@Transactional(propagation=Propagation.REQUIRED)
+
+public class OwnerQnaServiceImpl {
+	@Override
+	public List<QnaVO> myQuestionList(String member_id) throws Exception{
+		List questionList= myPageDAO.selectMyQuestionList(member_id);
+		return questionList;
+	}
+	
+	@Override
+	public List<QnaVO> myAnswerList(String member_id) throws Exception{
+		List answerList= myPageDAO.selectMyAnswerList(member_id);
+		return answerList;
+	}	
+	
+}
